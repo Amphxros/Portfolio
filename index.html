@@ -17,19 +17,10 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY PROJECTS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
 
-    
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Github</a>
-        <a href="#" class="w3-bar-item w3-button">Twitter</a>
-        <a href="#" class="w3-bar-item w3-button">itchio</a>
-      </div>
-    </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
@@ -40,38 +31,80 @@ body {font-family: "Lato", sans-serif}
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About me</a>
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Social</a>
 </div>
 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+  
+  <img src="assets/fotico.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:25%">
+       
+  <p class="w3-opacity w3-center"><i>Hi, I'm Amparo Rubio Bellon, a junior programmer, 2D artist and game developer</i></p>
+  <p class="w3-opacity w3-center"><i></i> I am an enthusiast videogame development student at the Complutense University of Madrid, a junior programmer 💻 and an artist.</p> 
+
+
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+    <img src="assets/1vs1.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
+     
+
+    </div>
+    <div class="w3-third">
+      <img src="assets/apta.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
+    </div>
+
+    <div class="w3-third">
+      <img src="assets/gmail.png" class="w3-round" alt="Random Name" style="width:60%">
+    </div>
+  </div>
+
+
+
 </div>
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
 
 
   
   <!-- Project section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">My projects</h2>
+    <h2 class="w3-wide">MY PROJECTS</h2>
     <p class="w3-opacity"><i>There you go some of my projects</i></p>
 
-    <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <button class="w3-button w3-black w3-section w3-center"><a href="https://amphxros.itch.io/fighter-traighter">Fighter Traighter</a></button>
-        <img src="assets/1vs1.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
-        <button class="w3-button w3-black w3-section w3-center"><a href="https://moruyankiifighter.github.io/FighterTraighter/">You can see the game here as well</a></button>
-       
-
-      </div>
-      <div class="w3-third">
-        <button class="w3-button w3-black w3-section w3-center"><a href="https://amphxros.itch.io/apta">Apta</a></button>
-        <img src="assets/apta.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
-      </div>
-
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="assets/gmail.png" class="w3-round" alt="Random Name" style="width:60%">
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/1vs1.png" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Fighter Traighter</h3>
+        <p><b> Fighter game made in c++</b></p>   
       </div>
     </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/apta.png" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <button class="w3-button w3-black w3-section w3-center"><a href="https://amphxros.itch.io/apta">Apta</a></button>
+         <p><b>Serious game made in Unity for encouraging women to study enginering studies</b></p>    
+      </div>
+    </div>
+
+
+  <p class="w3-opacity"><i>You can see the code of all of them in my github</i></p>
+
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+      <button class="w3-button w3-black w3-section w3-center"><a href="https://amphxros.itch.io/fighter-traighter">Ai demos</a></button>
+      <img src="assets/1vs1.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
+      <p class="w3-opacity"><i>These demos show the behaviour of algoritms like A*</i></p>
+
+
+    </div>
+
+    <div class="w3-third">
+      <button class="w3-button w3-black w3-section w3-center"> Trees (WIP)</a></button>
+      <img src="assets/apta.png" class="w3-round" alt="Random Name" style="width:95%">
+      <p class="w3-opacity"><i>A Tool for making ai of decition making in unity </i></p>
+    </div>
   </div>
+
+
+</div>
 
   <!-- The Tour Section -->
 
