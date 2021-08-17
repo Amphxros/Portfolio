@@ -19,7 +19,8 @@ html {
   --muted-light: #e6e7e9;
   --java: #AF4F3e;
   --html: #9F5F11;
-
+  --twitter:  #7ee7e9;
+  --linkedIn: #47769f;
   --primary-dark: black;
   --secondary-dark: black;
   --success-dark: #374427;
@@ -502,6 +503,12 @@ html {
   font-size: 1.5rem;
   position: relative;
   text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
@@ -988,6 +995,7 @@ option {
 
 h1,
 h2,
+h2c,
 h3,
 h4,
 h5,
@@ -996,19 +1004,25 @@ h6 {
   font-weight: normal;
 }
 
+
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 
-h2 {
+
+h2{
   font-size: 3rem;
+  text-align: center;
 }
-
 h3 {
   font-size: 2rem;
+  text-align: center;
 }
 
 h4 {
+  
+  text-align: center;
   font-size: 1.5rem;
 }
 
@@ -1590,6 +1604,11 @@ article p {
 
 .badge.html {
   background-color: var(--html);
+}
+
+.badge.twitter{
+  background-color: #7ee7e9;
+  background-color: var(--twitter);
 }
 
 ul.breadcrumb {

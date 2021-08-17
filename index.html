@@ -4,12 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="css/paper.css" rel="stylesheet"> 
+<!-- <link href="css/paper.css" rel="stylesheet"> -->
 <link href="https://github.com/amprubio/Portfolio/blob/main/css/paper.css" rel="stylesheet">
 <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" > 
 
 
+
+
  <!-- Up navbar -->
+ <head>
  <nav class="border split-nav">
   <div class="collapsible">
     <h1><span class="badge">Amparo Rubio Bellon</span></h1>
@@ -28,25 +31,21 @@
     </div>
   </div>
 </nav>
-
+</head>
 <body>
-<div>
-   
- <!-- about me -->
- <div>
+
+  <div class="home">
+  <!-- about me -->  
+   <h2> <span class="badge danger">About me</span></h2>
   
-  <nav class="border split-nav">
-    <div class="collapsible">
-      <h2> <span class="badge danger">About me</span></h2>
-    </div>
-  </nav>
-  <img src="assets/fotico.png" alt="Random Name" width="100px">
-       
-  
+  <div class= "img-container">
+  <img src="assets/icon.jpg" class="center" alt="Random Name" width="250px" >
+  </div>
+
+  <h3> Hi, I'm Amparo Rubio Bellon, an enthusiast Unity3D junior game developer currently studying at the Complutense University of Madrid</h3>
 
 
-
-  <div class="row">
+  <div class="row" >
     <div class="sm-3 col">
       <b><h4> Programming Languages</h4></b>
       <h4> <span class="badge success">C#</span> ,
@@ -79,38 +78,67 @@
     </div>
   </div>
 
-</div>
-
 <!-- prject section -->
-<div>
-  <nav class="border split-nav">
-    <div class="collapsible">
-      <h2> <span class="badge warning">Projects</span></h2>
-      <input id="collapsible1" type="checkbox" name="collapsible1">
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-      <div class="collapsible-body">
-        <ul class="inline">
+<h2> <span class="badge warning">Projects</span></h2>
+  <div>
+    <div class="row">
+      <div class="sm-3 col">
+        <h3>Fighter Traighter</h3>
+        <p><b> Fighter game made in c++ and sdl. I was in charge of programming and art </b></p>   
+        
 
-        </ul>
+      </div>
+      
+    <div class="sm-3 col">
+        <h3>APTA </h3>
+         <p><b>Serious game made in Unity for encouraging women to study enginering studies.</b></p>    
+         
+        
+    </div>
+    <div class="sm-3 col">
+      <h3>Trails</h3>
+      <p><b>A tool for making the AI of NPCs through Behaviour trees in Unity. Currently in development</b></p>    
+      
+
+    </div>
+
+    
+    
+    
+    
+    
+    <div class="row">
+      <div class="sm-3 col">
+        <img src="assets/1vs1.png" style="width:100%">
+      </div>
+      <div class="sm-3 col">
+        <img src="assets/apta.png" style="width:100%">
+      </div>
+      <div class="sm-3 col">
+        <img src="assets/background.png" style="width:100%">
       </div>
     </div>
-  </nav>
+  </div>
   
- 
-
+  
+  
+  
+  
+  
+  
+  
+  You can see the code of all of them in my github and itchio
 </div>
 
 <!-- contact me -->
 <div>
   <h2> <span class="badge secondary">Contact me</span></h2>
-You can contact me in:
-- Twitter
-- gmail
-
+  <h3> You can find me in: </h3>
+  
+  <h3><span class ="badge twitter"> TWITTER</span>  
+  <span class ="badge secondary"> LinkedIn</span>
+    
+  <span class ="badge danger-light"> GMAIL</span></h3>
 
 </div>
 
