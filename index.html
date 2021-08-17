@@ -3,217 +3,122 @@
 <title>Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --> 
-<!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<!-- <link href="https://github.com/Gioni06/terminal.css/blob/2bd171f93dc2f57dcb5c0999ff47c4916556f7af/lib/terminal.css" rel="stylesheet" > -->
 
-
-<LINK href="http://dl.dropbox.com/u/4947039/ZC-List.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-
-<link href="https://github.com/papercss/papercss/blob/master/src/styles.scss" rel = "stylesheet">
+<link href="css/paper.css" rel="stylesheet"> 
+<link href="https://github.com/amprubio/Portfolio/blob/main/css/paper.css" rel="stylesheet">
 <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" > 
 
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: left;}
-</style>
+
+ <!-- Up navbar -->
+ <nav class="border split-nav">
+  <div class="collapsible">
+    <h1><span class="badge">Amparo Rubio Bellon</span></h1>
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <label for="collapsible1">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </label>
+    <div class="collapsible-body">
+      <ul class="inline">
+        <li><a href="#home">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY PROJECTS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-  </div>
-</div>
-
-
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About me</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-</div>
-<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+<div>
+   
+ <!-- about me -->
+ <div>
   
-  <img src="assets/fotico.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:25%">
+  <nav class="border split-nav">
+    <div class="collapsible">
+      <h2> <span class="badge danger">About me</span></h2>
+    </div>
+  </nav>
+  <img src="assets/fotico.png" alt="Random Name" width="100px">
        
-  <p class="w3-opacity w3-center"><i>Hi, I'm Amparo Rubio Bellon, a junior programmer, 2D artist and game developer</i></p>
-  <p class="w3-opacity w3-center"><i></i> I am an enthusiast videogame development student at the Complutense University of Madrid, a junior programmer 💻 and an artist.</p> 
-
-  <!-- Social media -->
-
-  <div class="w3-row w3-padding-32">
   
-    <div class="w3-third">
-      <h2 class="w3-wide">Programming languages</h2>
-      <h3 class="w3-opacity w3-center"><i> C#, C++,Java</i></h3>
-    </div>
-    <div class="w3-third">
-      <h2 class="w3-wide">Video Games Technologies</h2>
-      <h3 class="w3-opacity w3-center"><i> Unity 3D,Blender, SDL, OpenGL</i></h3>
-  
-    </div>
 
-    <div class="w3-third">
-      <h2 class="w3-wide">Others</h2>
-      <h3 class="w3-opacity w3-center"><i> Git, HTML, CSS, JS </i></h3>
+
+
+  <div class="row">
+    <div class="sm-3 col">
+      <b><h4> Programming Languages</h4></b>
+      <h4> <span class="badge success">C#</span> ,
+         <span class="badge sucess">C++</span> ,
+         <span class="badge warning"> JS</span> ,
+
+         <!-- more languages here -->
+        </h4>
+       
+
+      
+    </div>
+    <div class="sm-3 col">
+      <b><h4> Videogames Technologies</h4></b>
+      <h4> <span class="badge">Unity 3D</span> ,
+         <span class="badge secondary">Blender</span> ,
+         <span class="badge warning"> SDL</span> ,
+         <span class="badge danger"> OpenGL</span>
+         
+        </h4>
+    </div>
+    <div class="sm-3 col">
+      <b><h4>Others</h4></b>
+      <h4> <span class="badge ">Git</span> ,
+         <span class="badge java">html</span> ,
+         <span class="badge html"> Java</span> ,
+      
+      
+        </h4>
     </div>
   </div>
 
 </div>
 
-<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="projects">
+<!-- prject section -->
+<div>
+  <nav class="border split-nav">
+    <div class="collapsible">
+      <h2> <span class="badge warning">Projects</span></h2>
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+      <div class="collapsible-body">
+        <ul class="inline">
 
-  <!-- Project section -->
-   <h2 class="w3-wide">MY PROJECTS</h2>
-    <p class="w3-opacity"><i>There you go some games I made as a programmer and artist</i></p>
-    <!-- Fighter Traighter -->
-    <div class="mySlides w3-display-container w3-center">
-      <img src="assets/1vs1.png" style="width:100%">
-      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-        <h3>Fighter Traighter</h3>
-        <p><b> Fighter game made in c++ and sdl. I was in charge of programming and art </b></p>   
+        </ul>
       </div>
     </div>
-    <!-- Apta -->
-    <div class="mySlides w3-display-container w3-center">
-      <img src="assets/apta.png" style="width:100%">
-      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-        <h3>APTA </h3>
-         <p><b>Serious game made in Unity for encouraging women to study enginering studies.</b></p>    
-      </div>
-    </div>
-<!-- Trails -->
-    <div class="mySlides w3-display-container w3-center">
-      <img src="assets/background.png" style="width:100%">
-      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-        <h3>Trails</h3>
-         <p><b>A tool for making the AI of NPCs through Behaviour trees in Unity. Currently in development</b></p>    
-      </div>
-    </div>
-
-
-  <p class="w3-opacity"><i>You can see the code of all of them in my github and itchio</i></p>
-
-  <div class="w3-row w3-padding-32">
-    <!-- Fighter traighter -->
-    <div class="w3-third">
-      <button class="w3-button w3-black w3-section w3-center"><a href="https://amphxros.itch.io/fighter-traighter">Fighter Traighter</a></button>
-      <img src="assets/1vs1.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
-      <p class="w3-opacity"><i></i></p>
-    </div>
-
-    <!-- Apta link -->
-    <div class="w3-third">
-      <button class="w3-button w3-black w3-section w3-center"><a> Apta</a></button>
-      <img src="assets/apta.png" class="w3-round" alt="Random Name" style="width:95%">
-    </div>
-
-    <!-- Trails link -->
-    <div class="w3-third">
-      <button class="w3-button w3-black w3-section w3-center"><a href="https://github.com/amprubio/Trails"> Trails</a></button>
-      <img src="assets/background.png" class="w3-round" alt="Random Name" style="width:95%">
-    </div>
-
-  </div>
-
-</div>
-
-  <!-- The Tour Section -->
-
-  <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:600px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>You can contact me in:</i></p>
-    <div class="w3-row w3-padding-32">
+  </nav>
   
-      <div class="w3-third">
-        <button class="w3-button w3-white w3-section w3-center"><a href=https://github.com/amprubio>Github</a></button>
-        <button class="w3-button w3-white w3-section w3-center"><a href="https://amphxros.itch.io/">Itchio</a></button>
-      </div>
-      <div class="w3-third">
-        <button class="w3-button w3-white w3-section w3-center"><a href=https://www.linkedin.com/in/amparo-rubio-bellon/>LinkedIn</a></button>
-        <button class="w3-button w3-white w3-section w3-center"><a href=https://twitter.com/AmphxrosDev>Twitter</a></button>
-      </div>
-     
-    </div>
  
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Madrid, Spain<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: ampxrubio@gmail.com<br>
-      </div>
 
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right"><a href = "mailto:ampxrubio@gmail.com?subject">SEND</a></button>
-        </form>
-      </div>
-    </div>
-  </div>
-  
-<!-- End Page Content -->
 </div>
 
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<!-- contact me -->
+<div>
+  <h2> <span class="badge secondary">Contact me</span></h2>
+You can contact me in:
+- Twitter
+- gmail
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  
-</footer>
 
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
+</div>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
 
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
+</div>
+
+ 
 </body>
 </html>

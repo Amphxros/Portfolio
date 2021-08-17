@@ -13,10 +13,13 @@ html {
   --muted: #868e96;
   --primary-light: #c1c0bd;
   --secondary-light: #deefff;
-  --success-light: #d0dbc2;
+  --success-light: #4b4e48;
   --warning-light: #f5f0c6;
   --danger-light: #f0cbc9;
   --muted-light: #e6e7e9;
+  --java: #AF4F3e;
+  --html: #9F5F11;
+
   --primary-dark: black;
   --secondary-dark: black;
   --success-dark: #374427;
@@ -1578,6 +1581,15 @@ article p {
 .badge.muted {
   background-color: #41403e;
   background-color: var(--muted);
+}
+
+.badge.java {
+  background-color: #AF4F3e;
+  background-color: var(--java);
+}
+
+.badge.html {
+  background-color: var(--html);
 }
 
 ul.breadcrumb {
