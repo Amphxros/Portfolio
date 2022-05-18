@@ -234,7 +234,7 @@ section {
   display: block;
 }
 
-h11 {
+h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -993,7 +993,46 @@ option {
   font-family: "Neucha", sans-serif;
 }
 
+h1,
+h2,
+h2c,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patrick Hand SC", sans-serif;
+  font-weight: normal;
+}
 
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+
+h2{
+  font-size: 3rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h4 {
+  
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
 
 .text-left {
   text-align: left;
@@ -1016,7 +1055,7 @@ img {
   border-color: var(--primary);
   border-style: solid;
   border-width: 2px;
-  display: block;
+  display: center;
   height: auto;
   max-width: 100%;
 }
@@ -1593,7 +1632,7 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 ul.breadcrumb li + li::before {
-  content: "/ ";
+  content: "/ ";
   padding: 8px;
 }
 
