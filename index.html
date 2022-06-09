@@ -23,39 +23,47 @@
 		<script src="./js/vue.min.js"></script>
 	</head>
 	
-	  <body>
-		<div id="nescss">
-		 
 	
-		  <body>
-			<div>  <!-- About -->
-			  <section class="topic">
-				<div class="container">
-					<div class="nav-brand">
-					  <a href="">
-						<h1><i class="nes-logo brand-logo"></i>Amparo Rubio Bellón </h1>
-					  </a>
-					</div>
-				  </div>
-		  
-			  
-				</section>
 
-				
-				
-				
+	  <body>
+
+				<div id="nescss">
+					<header :class="{ sticky: scrollPos > 100 }">
+				  <div class="container">
+					<img src="assets/images/fotico.png" width="70px">
+					<div class="nav-brand">
+						<h3> Amparo Rubio Bellón</h3>
+					  <p>Junior Unity Game Programmer</p>
+				  </div>
+				 
+				</header>
+				</div>
+	
+
+	
+				<div id="nescss">
+			
+				  <div class="container">
+					<div class="nav-brand">
+					 
+					 
+				  </div>
+				</div>
 				<section>
-					<h2 id="about"><a href="#about">#</a><span class="badge secondary"><u>About me</u></span></h2>
+					<h2 id="about"><a href="#about">#</a><span class="badge secondary"> <u>About me</u></span></h2>
 					<h4>Hello world! 👋 </h4>
 				
 					<h4>My name is <span class="badge">Amparo Rubio Bellón</span> but I prefer to be called just <span class="badge"><b>Amph</b></span>, my pronouns are she/they
 					and I'm a game programmer currently studying <b>Game development and programming</b> at the <b>Complutense University of Madrid</b></h4> 
 					<h4>I live in Madrid with my partner and together we kill a lot of plants 🌱 and play videogames 🎮</i></h4>
+					
+				
+					
 					<section class="nes-container with-title">
 						<h3>My skills</h3>
 						<div class="row" >
 							<div class="sm-3 col">
-							  <b><h4> Programming Languages</h4></b>
+							  <b><h4> 🌱 Programming Languages</h4></b>
 							  <h4> <span class="badge success">C#</span> ,
 								 <span class="badge sucess">C++</span> , 
 								 <span class="badge html"> Java</span>, 
@@ -68,12 +76,12 @@
 							  
 							</div>
 							<div class="sm-3 col">
-							  <b><h4> Videogames Technologies</h4></b>
+							  <b><h4> Videogames Technologies 🎮</h4></b>
 							  <h4> <span class="badge">Unity 3D</span> ,
 								 <span class="badge secondary">Blender</span> ,
 								 <span class="badge warning"> SDL</span> ,
 								 <span class="badge danger"> OpenGL</span>
-								 
+								 <span class="badge success"> OGRE3D</span>
 								</h4>
 							</div>
 							<div class="sm-3 col">
@@ -87,7 +95,7 @@
 							</div>
 						
 							<div class="sm-3 col">
-							  <b><h4>Concepts</h4></b>
+							  <b><h4> 📘 Concepts</h4></b>
 							  <h4>
 								 <span class="badge java">AI for games</span>
 								 <span class="badge success">Agile methodology</span>
@@ -105,7 +113,7 @@
 				
 			</section>  
 				<section class="nes-container with-title">
-				<h2 id="about"><a href="#projects">#</a> <span class="badge warning"><u>My projects</u></span></h2>
+				<h2 id="about"><a href="#projects">#</a> <i class="nes-logo brand-logo"></i><span class="badge warning"><u>My projects</u></span></h2>
 
 				<h3>Here you have my projects that are engines or tools and not games at all</h3>
             
@@ -113,7 +121,7 @@
 					<section class="nes-container is-dark with-title">
 						<h3 > Aegis Engine</h3>
 						
-						<h4>Game engine made using <b>OGRE, Bullet physics, FMOD and SDL2</b>
+						<h4>Game engine made in just 3 months using <b>OGRE, Bullet physics, FMOD and SDL2</b>
 						 in <b>C++</b> and <b>Lua</b> as <b><u>scripting</u> language</b>
 						for making 3D games</h4>
 						
@@ -155,25 +163,32 @@
 			  <section class="nes-container with-title">
 				<h2 id="about"><a href="#games">#</a> <span class="badge danger">My games </span></h2>
 				<div class="row" >
+<!--
+	GAMES HERE 			
+-->
+			<section class="nes-container is-dark with-title">
+				<h3><u> Niles Bubbles(2022)</u></h3>
 			
+				<h4>Roguelite bubble shooter with cool narrative made in the FemPowerUp bootcamp</h4>
+				<div class="row" >
+					<img src="assets/images/nilesBubbles.png" width="500px">
+				</div>
+				<span class="badge danger"> In progress</span>
+				<h3>rol: programming</h3>
+			<!--<button><h4><a href="https://amphxros.itch.io/fighter-traighter">Game page</a></h4></button>	-->	
+				</section>
+
+				<section class="nes-container is-dark with-title">
+				<h3><u> Fighter Traighter(2020)</u></h3>
 			
-			
-					<section class="nes-container is-dark with-title">
-					<h3><u> Fighter Traighter(2020)</u></h3>
-				
-					<h4>Arcade fighter game made in SDL2 and C++</h4>
-					<div class="row" >
-					<img src="assets/images/2vs2.png" width="500px">
-					<img src="assets/images/1vs1.png" width="500px">
-					
-					
-					
+				<h4>Arcade fighter game made in SDL2 and C++</h4>
+				<div class="row" >
+				<img src="assets/images/2vs2.png" width="500px">
+				<img src="assets/images/1vs1.png" width="500px">
 				</div>
 				<h3>rol: programming and art</h3>
-				<button><h4><a href="https://github.com/Amphxros/Fighter-Traighter"> <i class="nes-icon github"></i>Source code</a></span> </h4></button>
-					
+				<button><h4><a href="https://github.com/Amphxros/Fighter-Traighter"> <i class="nes-icon github"></i>Source code</a></span> </h4></button>		
 				<button><h4><a href="https://amphxros.itch.io/fighter-traighter">Game page</a></h4></button>		
-					
 				</section>
 
 				<section class="nes-container is-dark with-title">
@@ -190,20 +205,7 @@
 				<button><h4><a href="https://github.com/Juegos-Serios/ProyectFinal"> <i class="nes-icon github"></i>Source code</a></span> </h4></button>
 				<button><h4><a href="https://amphxros.itch.io/apta">Game page</a></span> </h4></button>	
 				</section>
-
-
-
-				<section class="nes-container is-dark with-title">
-					<h3> Soul's Taker(2018)</h3>
-					<h4> My first game, it's a metroidvania platformer similar to hollow knight made in Unity and C#</h4>		
-					<div class="row" >
-						<img src="assets/images/apta.png" width="500px">
-						<img src="assets/images/WrH22x.png" width="500px">
-					</div>
-						<h3>rol: programming, production and art</h3>
-						<button><h4><a href="https://github.com/Amphxros/Proyecto-1"> <i class="nes-icon github"></i>Source code</a></span> </h4></button>
-						<button><h4><a href="">Game page</a></h4></button>	
-				</section>			
+		
 			</div>
 		
 
@@ -240,6 +242,7 @@
 
 			  </section>
 
+			</body>	
 			<footer>
 				<div class="share">
 					<a href="https://github.com/Amphxros" target="_blank"><i class="nes-icon github"></i></a>
@@ -247,5 +250,4 @@
 					<a href="https://www.linkedin.com/in/amparo-rubio-bellon/" target="_blank"><i class="nes-icon linkedin"></i></a>
 				  </div>
 			</footer>
-		</body>	
 </html>
