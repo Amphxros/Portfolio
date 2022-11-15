@@ -5,9 +5,7 @@
     <div class="paragraph">
       I'm <strong>Amparo Rubio</strong>, a Game Dev near graduating currently living in Madrid, Spain.
       <br />I've been creating games and game dev tools for over 5 years with various technologies and different coding languages.
-      <br />
-      <br />
-      <br />
+     
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/Amparo_Rubio_Bellon_-_Unity_Developer.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar como PDF ᴇꜱ</a>
@@ -25,18 +23,37 @@
       <h2>Languages and tools</h2>
     
 
-    
       <div class="skill-set">
-        <h3>Programming Languages</h3>
-        <SkillRate name="C++" :rate="4"/>
-        <SkillRate name="C#" :rate="4" />
-        <SkillRate name="Java" :rate="3" />
-        <SkillRate name="Lua" :rate="3" />
-        <SkillRate name="Javascript" :rate="3" />
-        <SkillRate name="Typescript" :rate="3" />
-
-        
+        <h3>Programming languages</h3>
+        <div class="skill-set">
+        <div class="skill"><b>C#</b></div> 
+        <div class="skill"><b>C++</b></div>
+        <div class="skill">C</div> 
+        </div>
+        <div class="skill-set">
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">Lua</div>
       </div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Gamedev</h3>
+        <div class="skill">Unity 3D</div>
+        <div class="skill">Photoshop</div>
+        <div class="skill">Asesprite</div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools & Frameworks</h3>
+        <div class="skill">GIT</div>
+        <div class="skill">Visual Studio</div>
+        <div class="skill">Trello/JIRA</div>
+
+      </div>
+
+
+
 
       <div style="clear:both" />
 
@@ -69,12 +86,12 @@
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
+
 
 export default Vue.extend({
   name: "Resume",
   components: {
-    SkillRate,
+   
   },
 });
 </script>

@@ -30,22 +30,10 @@ export default [
    
     new ProjectData("project-2", "3 Horas", "img/projects/project-1-icon.png", `
     <div class="paragraph">
-        <strong>3 Horas Blog</strong> is unity game made during the SGDIII game jam where you recruit humans to fight robots.
+        <strong>3 Horas</strong> is unity game made during the SGDIII game jam where you recruit humans to fight robots.
         <br/>Image by <a target="_blank" href="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg2LnBuZw==/original/WUvZ0Q.png">Adonyi Gábor</a>.
     </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
 
     <div class="paragraph">
     <div class="notice">
@@ -54,8 +42,7 @@ export default [
     <div class="paragraph center">
     <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg3LnBuZw==/original/SAB46w.png" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg5LnBuZw==/original/0sDJxS.png" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg4LnBuZw==/original/JALRK6.png" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
    
