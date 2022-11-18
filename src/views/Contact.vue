@@ -22,10 +22,7 @@
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://amphxros.itch.io/" target="_blank">amphxros.itch.io</a>
       </li>
-      <li>
-        <i class="fa fa-steam fa-lg fa-fw"></i>
-        <a href="https://steamcommunity.com/id/me" target="_blank">steam.com/me</a>
-      </li>
+      
     </ul>
 
   </div>

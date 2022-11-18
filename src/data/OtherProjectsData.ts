@@ -3,7 +3,9 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("project-7", "Aegis Engine", "img/projects/project-6-icon.png", `
     <div class="paragraph">
-      <strong>Aegis Engine</strong> is a 3D game engine built from scratch with C++ and Lua.
+      <strong>Aegis Engine</strong> is the biggest project I've worked on.
+      It's a custom 3D engine built from the ground up available on Windows and Linux.
+      It's written on C++ and LUA. Users are able to write the game on LUA in a similar way it's on Unity and they are able to make their games with the assets they desire.
           <div class="paragraph">
             Main features :
             <ul>

@@ -6,6 +6,10 @@
       I'm <strong>Amparo Rubio</strong>, a Game Dev near graduating currently living in Madrid, Spain.
       <br />I've been creating games and game dev tools for over 5 years with various technologies and different coding languages.
      
+      I'm especially comfortable with <b> Unity, C++ and C#</b>, but I have experience with quite a lot of different technologies.
+
+      One of my strongest skills is teamwork and planning, as I've used agile methodologies for all of the projects I've participated in. I'm really comfortable
+      with Scrum and Kanban.
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/Amparo_Rubio_Bellon_-_Unity_Developer.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar como PDF ᴇꜱ</a>
@@ -22,7 +26,6 @@
      
       <h2>Languages and tools</h2>
     
-
       <div class="skill-set">
         <h3>Programming languages</h3>
         <div class="skill-set">
@@ -59,9 +62,10 @@
 
       <h2>Education</h2>
 
-      <h3>Complutense Unversity of Madrid - 2018-currently</h3>
+      <h3>Complutense Unversity of Madrid - 2017-currently</h3>
       <h4>Game programming degree</h4>
       <div>Game development degree where I made some games and gamedev tools </div>
+
 
       <h2>Languages</h2>
 
@@ -73,9 +77,6 @@
 
       <h3>French</h3>
       <div> In a really basic level because I took some classes when I was in high school </div>
-
-
-      <h2>Besides...</h2>
       <div>
         
 

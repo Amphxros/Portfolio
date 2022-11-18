@@ -51,10 +51,6 @@ export default [
         <strong>Fighter Traighter</strong> is an arcade fighter made with <b>SDL2, Box2D and C++</b>.
         <br/>Image by <a target="_blank"> me</a>.
     </div>
-    <div class="paragraph center">
-        //<iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
     <div class="paragraph">
         Main features :
         <ul>
@@ -66,7 +62,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        You can download the game on <a href="https://amphxros.itch.io/fighter-traighter" target="_blank">itch.io</a>.
+        You can download the game on <a href="https://amphxros.itch.io/fighter-traighter" target="_blank">itch.io</a> or in the webpage <a href="https://moruyankiifighter.github.io/FighterTraighter/" target="_blank">webpage</a>.
         Source code is available on <a href="https://github.com/MoruyankiiFighter/FighterTraighter" target="_blank">GitHub</a>.
         </div>
     </div>
