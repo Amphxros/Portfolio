@@ -55,9 +55,6 @@
 
       </div>
 
-
-
-
       <div style="clear:both" />
 
       <h2>Education</h2>
@@ -78,7 +75,15 @@
       <h3>French</h3>
       <div> In a really basic level because I took some classes when I was in high school </div>
       <div>
-        
+
+      <h2>About my hobbies</h2>
+      Besides playing videogames and making them I have a few more hobbies
+   
+      <div class="full-content">I love to read books 📚, my favourite author is Murakami also I love fantasy and manga.</div>
+      <div class="full-content">I love to watch series 📺, usually animation ones because is really a beautiful media.</div>
+      <div class="full-content">I like drawing ✏️, since I was little I drew all the time, currently I am drawing in digital with my graphic tablet.</div>
+      <div class="full-content">I love cooking 🍳, I like to try new recipes and I love to eat, also I think to fully understand different cultures you have to try their food.</div>
+      <div class="full-content">I love to build things 🔨 , last year I moved to an old house (my current home) and I'm "repairing" it and making it look cute</div>
 
       </div>
     </div>

@@ -4,34 +4,39 @@ export default [
     new ProjectData("project-1", "Nonograms", "img/projects/project-2-icon.png", 
     `
     <div class="paragraph">
-     <strong>Nonograms</strong> is a mobile game made in <b>Android Studio (Java)</b> replicating the original. 
+     <strong>Nonograms</strong> is a mobile game made in <b>Android Studio (Java)</b> replicating the original game.
     
+     Currently on progress. 
+     <div class="paragraph">
+    <u><b> Main features :</b></u>
+     <ul>
+     <li><u> Ad </u> integration: Banner and rewarded ads</li>
+     <li><u> Notification </u> integration</li>
+     <li>Custom <u>palettes</u></li>
+     <li>Encripted saving data</li>
+     <li>Loaded and procedural levels </li>
+     <li>Sensor integration: Using <u>accelerometer</u> to suffle in random levels</li>
+   
+     </ul>
+
+ </div>   
     <div class="paragraph center">
-       <img width=90% src="img/projects/project-2-icon.png"/></a>
+        <img class="pc-screenshot" src="img/projects/project-2-icon.png"/>
+        <img class="pc-screenshot" src="img/projects/nonograms_palettes.png"/>
+        <img class="pc-screenshot" src="img/projects/nonograms_frog.png"/>
+        <img class="pc-screenshot" src="img/projects/shop.png"/>
     </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Procedural levels</li>
-        <li>AR integration</li>
-        <li>Ads integration</li>
-        </ul>
-    </div>
-
-    <div class="notice">
     
-    Source code will be available on <a href="https://github.com/amphxros" target="_blank">GitHub</a>.
+    <div class="notice">
+       You can see the source code in <a href="https://github.com/Amphxros/VDM" target="_blank">github</a>.
     </div>
-
-
-
-    `, "#344E41"),
+ 
+    `, "#344E41",true,true),
    
     new ProjectData("project-2", "3 Horas", "img/projects/project-1-icon.png", `
     <div class="paragraph">
         <strong>3 Horas</strong> is unity game made during the SGDIII game jam where you recruit humans to fight robots.
-        <br/>Image by <a target="_blank" href="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg2LnBuZw==/original/WUvZ0Q.png">Adonyi Gábor</a>.
+        <br/>Image by <a target="_blank" href="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg2LnBuZw==/original/WUvZ0Q.png">Amparo Rubio</a>.
     </div>
 
 
@@ -40,12 +45,34 @@ export default [
        You can play it on <a href="https://blackgamesdev.itch.io/3-horas" target="_blank">itch.io</a>.
     </div>
     <div class="paragraph center">
-    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg3LnBuZw==/original/SAB46w.png" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg5LnBuZw==/original/0sDJxS.png" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg4LnBuZw==/original/JALRK6.png" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg3LnBuZw==/original/SAB46w.png"  />
+    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg5LnBuZw==/original/0sDJxS.png" />
+    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTIxMjc4NS83MDc2Nzg4LnBuZw==/original/JALRK6.png" />
     </div>
     `, "#5a78af"),
    
+
+    new ProjectData("project-8", "100 seconds in the sea", "img/projects/project-8-icon.png", `
+    <div class="paragraph">
+        <strong>100 seconds in the sea</strong> is an unity game made during the indie spain game jam where you have to survive 100 seconds avoiding sea creatures, similar to disc room.
+        
+        <p>It's my first almost solo developing (I was with my partner who didn't know anything about unity).</p>
+        <br/>Image by me</a>.
+        <div class="paragraph center">    
+        <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTY4MDA4NS8xMDEyODg3Mi5qcGc=/original/Nit%2F6I.jpg"  />
+        <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMTY4MDA4NS8xMDEyODg3My5qcGc=/original/G11V22.jpg.jpg"  />
+        </div>
+    </div>
+
+
+    <div class="paragraph">
+    <div class="notice">
+       You can play it on <a href="https://amphxros.itch.io/100-seconds-in-the-sea" target="_blank">itch.io</a>.
+    </div>
+    `, "#0298aa"),
+
+
+
     new ProjectData("project-3", "Fighter Traighter", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         <strong>Fighter Traighter</strong> is an arcade fighter made with <b>SDL2, Box2D and C++</b>.
@@ -54,60 +81,40 @@ export default [
     <div class="paragraph">
         Main features :
         <ul>
-        <li>ecs system</li>
+        <li><u>ecs system</u></li>
         <li>Handling multiple controllers (gamepads)</li>
         <li>Very basic AI</li>
         </ul>
     </div>
 
+    
     <div class="paragraph">
         <div class="notice">
-        You can download the game on <a href="https://amphxros.itch.io/fighter-traighter" target="_blank">itch.io</a> or in the webpage <a href="https://moruyankiifighter.github.io/FighterTraighter/" target="_blank">webpage</a>.
+        You can <u>download</u> the game on <a href="https://amphxros.itch.io/fighter-traighter" target="_blank">itch.io</a> or in the <a href="https://moruyankiifighter.github.io/FighterTraighter/" target="_blank">webpage</a>.
         Source code is available on <a href="https://github.com/MoruyankiiFighter/FighterTraighter" target="_blank">GitHub</a>.
         </div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzQyMDgzLzQxMzQ1MTMucG5n/original/fsdMYl.png"/>
-        <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzQyMDgzLzQxMzQ0ODAucG5n/original/OFe8DE.png"/>
+    
     </div>
     `, "#383838"),
 
-    new ProjectData("project-4", "APTA", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4",
+    "APTA", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>APTA</strong> is a serious game about encouraging women to study computer science by showing real representation and questioning stereotypes.
+    <strong>APTA</strong> is a serious game about encouraging women to study computer science by showing real representation and questioning stereotypes made with Unity.
     </div>
     <div class="paragraph center">
         <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzQzMjg3LzQyNDIzODcucG5n/original/cn%2BMt2.png" alt="Eugeneable Screenshot" />
         <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzQzMjg3LzQyNDIzODgucG5n/original/nvfGGG.png" alt="Eugeneable Screenshot" />
         <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzQzMjg3LzQyNDIzOTIucG5n/original/WrH22x.png" alt="Eugeneable Screenshot" />
     </div>
- 
+
     <div class="paragraph">
     <div class="notice">
     Windows and Linux build available on <a href="https://amphxros.itch.io/apta" target="_blank">itch.io</a>.
     </div>
 </div>
-
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Niles Bubbles", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Niles Bubbles</strong> is a bubble shooter game made during the  <a href="https://some.where/nice" target="_blank">Fem Power up</a>.
-        initiative. However, due a many problems within the resources(we were only 4 people meanwhile the other groups were about 14), the game was never finished, but in a future I will work on it.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Custom dialog system</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-       
-        In a future I will continue the development.
-        </div>
-    </div>`, "#e48246")
+  `, "#e80fb7")
 ];
