@@ -18,9 +18,26 @@ export default [
             Source code available on <a href="https://github.com/Proyecto3Grupo02/Aegis" target="_blank">Github</a>.
             </div>
         </div>
-    `, "#11a606", true, true),
-  
-    new ProjectData("project-10", "TASK", "img/projects/project-10-icon.png", `
+    `, "#115210", true, true),
+  new ProjectData("project-11", "Unity Telemetry System", "img/projects/project-11-icon.png", `
+    <div class="paragraph">
+    Custom telemetry system made for any system but mainly Unity.
+    It's imported through a .dll file to your project and it's able to send data to many different endpoints.
+    
+    <div class="paragraph">
+            Main features :
+            <ul>
+            <li>Persistence of events along the time</li>
+           
+            </ul>
+        </div>
+
+    <div class="notice">
+    Source code available on <a href="https://github.com/Agusmoure/Telemetry" target="_blank">Github</a>.
+    </div>
+
+    `, "#111121", false, false),
+    new ProjectData("project-10", "TASK", "img/projects/project-11-icon.png", `
     <div class="paragraph">
       <strong> TASK </strong> is a unity tool for recording and replaying input in the editor in a similar way to a TAS.
           <div class="paragraph">
@@ -31,9 +48,12 @@ export default [
             <li> </li>
             </ul>
         </div>
+         <div class="notice">
+    Source code available on <a href="https://github.com/Amphxros/TASK" target="_blank">Github</a>.
+    </div>
     `, "#111121", false, false),
   
-    new ProjectData("project-8", "Trails", "img/projects/project-7-icon.png", `
+    new ProjectData("project-8", "Trails", "img/projects/project-11-icon.png", `
     <div class="paragraph">
       <strong>Trail </strong> is a unity tool for creating behaviour trees using a visual editor in Unity.
           <div class="paragraph">
@@ -43,7 +63,7 @@ export default [
             
             </ul>
         </div>
-    `, "#111111", false, false),
+    `, "#111121", false, false),
 
     
 ];

@@ -3,7 +3,7 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Amparo Rubio</strong>, a Game Dev near graduating currently living in Madrid, Spain.
+      I'm <strong>Amparo Rubio</strong>, a game developer near graduating currently living in Madrid, Spain.
       <br />I've been creating games and game dev tools for over 5 years with various technologies and different coding languages.
      
       I'm especially comfortable with <b> Unity, C++ and C#</b>, but I have experience with quite a lot of different technologies.
@@ -57,11 +57,33 @@
 
       <div style="clear:both" />
 
+      
+      <h2>Experience</h2>
+      <h3>🤖 Rockbotic</h3>
+      <h4>(2023 - currently)</h4>
+      <h4>Robotic teacher</h4>
+      <div>Teaching robotic and programming in different schools using different technologies such as arduino, scratch, bitcode... </div>
+
+
+
       <h2>Education</h2>
 
-      <h3>Complutense Unversity of Madrid - 2017-currently</h3>
+      <h3>Complutense Unversity of Madrid </h3>
+      <h4>(2017-currently)</h4>
       <h4>Game programming degree</h4>
       <div>Game development degree where I made some games and gamedev tools </div>
+
+      <h3>🤖 Rockbotic formation bootcamp</h3>
+      <h4>(2023)</h4>
+      <h4>Robotic teacher preparation</h4>
+      <div>Preparation for learning technologies and how to teach kids robotic in a educative way </div>
+
+       <h3>Narratech</h3>
+        <h4>(2021)</h4>
+        <h4> Quality Assurance and testing in videogames</h4>
+        <div> Intesive preparation in collaboration with some game studios and the game development master course to testing their games</div>
+
+
 
 
       <h2>Languages</h2>
