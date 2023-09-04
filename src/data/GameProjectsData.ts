@@ -1,6 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+   
     new ProjectData("project-1", "Nonograms", "img/projects/project-2-icon.png", 
     `
     <div class="paragraph">
@@ -32,6 +33,27 @@ export default [
     </div>
  
     `, "#344E41",true,true),
+
+    new ProjectData("project-12", "Pachinko", "img/projects/project-12-icon.png", `
+    <div class="paragraph">
+        <strong>Pachinko</strong> is an C++ environment where I programmed the physics simulating a Pachinko game.
+        <img class="pc-screenshot" src="img/projects/project-12-icon.png"/>
+      
+        <div class="paragraph">
+        <u><b> Main features :</b></u>
+         <ul>
+         <li><u> Custom collisions</li>
+         <li>Custom forces (gravity, wind, explosions...)</li>
+         
+         <li>Solid rigid integrations</li>
+         
+         <div class="notice">
+         You can check the source code on <a href="https://github.com/Amphxros/SFV/tree/main/Practica%20final" target="_blank">github</a> with the custom features.
+      </div>
+         </ul>
+    </div>
+
+    `, "#3aD85f"),
    
     new ProjectData("project-2", "3 Horas", "img/projects/project-1-icon.png", `
     <div class="paragraph">

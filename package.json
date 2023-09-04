@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "^2.7.14",
     "vue-router": "^3.4.3"
   },
   "devDependencies": {
@@ -24,6 +24,6 @@
     "less": "^3.12.2",
     "less-loader": "^7.0.1",
     "typescript": "~3.9.3",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.7.14"
   }
 }
