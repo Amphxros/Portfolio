@@ -103,7 +103,7 @@ function Projects() {
               isBlog={false}
               title="APTA"
               description="APTA is a serious game made in Unity with the objective of encouraging women to take computer studies"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/Juegos-Serios/ProyectFinal"
               demoLink="https://amphxros.itch.io/apta"
             />
           </Col>
