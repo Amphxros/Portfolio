@@ -42,6 +42,18 @@ function OtherProjects() {
 
             />
           </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={unityLogo}
+              isBlog={false}
+              title="TASK"
+              description="TASK(Tool Assisted Superplay by Keycodes) is an input replaying system for Unity.
+               It works in a similar way that VHS works, it records keyframes of inputs with the objective 
+               of giving better reports of bugs and being able to replaying it"
+              ghLink="https://github.com/Amphxros/TASK"
+
+            />
+          </Col>
 
           <Col md={4} className="project-card">
           <ProjectCard

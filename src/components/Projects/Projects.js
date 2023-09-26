@@ -10,7 +10,7 @@ import fighter from "../../Assets/Projects/project-3-icon.png";
 import niles from "../../Assets/Projects/project-5-icon.png";
 import apta from "../../Assets/Projects/project-4-icon.png";
 import ciensecs from "../../Assets/Projects/project-8-icon.png";
-
+import owl from "../../Assets/Projects/project-13-icon.png"
 
 function Projects() {
   return (
@@ -24,6 +24,18 @@ function Projects() {
           Here are a few videogames I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={owl}
+              isBlog={false}
+              title="Owltellation"
+              description="Game made for the Indie Spain Game Jam 2023
+              Is a point and click where you have to connect the stars and find constellations"
+              ghLink="https://github.com/Little-Corvid-Studio/IndieSpainJam-23"
+              demoLink="https://little-corvid-studio.itch.io/owlstellation"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nonogram}
