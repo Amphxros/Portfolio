@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import aegis from "../../Assets/Projects/project-6-icon.png"
 import unityLogo from "../../Assets/Projects/project-11-icon.png"
+import godotLogo from "../../Assets/Projects/Godot.png"
 
 function OtherProjects() {
   return (
@@ -28,6 +29,15 @@ function OtherProjects() {
               Users are able to write the game on LUA in a similar way it's on Unity and they are able to make their games with the assets they desire."
               ghLink="https://github.com/Proyecto3Grupo02/Aegis"
               demoLink="https://amphxros.itch.io/aegis-engine"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={godotLogo}
+              isBlog={false}
+              title="Continous Integration of Godot Engine using jenkins"
+              description="Local Jenkins server configuration that compiles your godot project using .bat where it generates the executable, then it's upload to the local Jenkins server"
+              ghLink="https://github.com/Jorzuiz/Godot-Jenkins"
             />
           </Col>
 
@@ -64,9 +74,6 @@ function OtherProjects() {
               ghLink="https://github.com/Agusmoure/Telemetry"
 
             />
-          </Col>
-
-          <Col md={4} className="project-card">
           </Col>
 
           <Col md={4} className="project-card">

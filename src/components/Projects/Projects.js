@@ -11,7 +11,8 @@ import niles from "../../Assets/Projects/project-5-icon.png";
 import apta from "../../Assets/Projects/project-4-icon.png";
 import ciensecs from "../../Assets/Projects/project-8-icon.png";
 import owl from "../../Assets/Projects/project-13-icon.png"
-
+import Mastermind from "../../Assets/Projects/project-15-icon.png"
+import ghost from "../../Assets/Projects/project-17-icon.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,7 +25,42 @@ function Projects() {
           Here are a few videogames I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ghost}
+              isBlog={false}
+              title="Cooking for ghosts"
+              description="VR game where you are a witch cooking for your ghosts clients. I made the realtime cutting system for the food models"
+              ghLink="https://github.com/Amphxros/Unity-VR"
+            />
+          </Col>
+        
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Mastermind}
+              isBlog={false}
+              title="Mastermind"
+              description="Mobile game made in Android Studio using Java and C++."
+              ghLink="https://github.com/Amphxros/VDM-Mastermind"
+            />
+          </Col>
+        
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nonogram}
+              isBlog={false}
+              title="Nonograms"
+              description="Mobile game made in Android Studio using Java. 
+              The idea was to learn how to program for multiple platforms as well as be familiar with the android features."
+              ghLink="https://github.com/Amphxros/VDM-Nonograms"
+              //demoLink="https://"
+            />
+          </Col>
+        
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={owl}
               isBlog={false}
@@ -35,19 +71,7 @@ function Projects() {
               demoLink="https://little-corvid-studio.itch.io/owlstellation"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={nonogram}
-              isBlog={false}
-              title="Nonograms"
-              description="Mobile game made in Android Studio using Java. 
-              The idea is was to learn how to program for multiple platforms as well as be familiar with the android features."
-              ghLink="https://github.com/Amphxros/VDM-Nonograms"
-              //demoLink="https://"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={treshoras}
