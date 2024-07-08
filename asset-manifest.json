@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.85c099c2.css",
-    "main.js": "/Portfolio/static/js/main.6380a604.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/Portfolio/static/css/main.68a26d77.css",
+    "main.js": "/Portfolio/static/js/main.7e7656ac.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/project-3-icon.png": "/Portfolio/static/media/project-3-icon.3b81091221c8869cb934.png",
     "static/media/project-4-icon.png": "/Portfolio/static/media/project-4-icon.0c1c5c6d4ddfad697d3d.png",
+    "static/media/about.png": "/Portfolio/static/media/about.35dcc2732fe37eff50e4.png",
     "static/media/project-13-icon.png": "/Portfolio/static/media/project-13-icon.36ab4bcb36380e3fdc97.png",
+    "static/media/project-17-icon.png": "/Portfolio/static/media/project-17-icon.7580bdd44093446ea077.png",
     "static/media/project-12-icon.png": "/Portfolio/static/media/project-12-icon.2d28a0b736fa4f6274c1.png",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.1c98e45f38b9ebe27927.png",
     "static/media/project-6-icon.png": "/Portfolio/static/media/project-6-icon.b2565292fcd3b241dcc0.png",
     "static/media/CV-Amparo-Rubio.pdf": "/Portfolio/static/media/CV-Amparo-Rubio.e5250c697080fc5eb614.pdf",
+    "static/media/Godot.png": "/Portfolio/static/media/Godot.e71420dd55a65646652e.png",
     "static/media/project-8-icon.png": "/Portfolio/static/media/project-8-icon.cf52f7ec9634f7006f13.png",
-    "static/media/about.png": "/Portfolio/static/media/about.287486a83183fe10827b.png",
     "static/media/project-5-icon.png": "/Portfolio/static/media/project-5-icon.f15ddaaeb02efb6ff60a.png",
-    "static/media/project-14-icon.png": "/Portfolio/static/media/project-14-icon.87ab8268a2d16ba08f9f.png",
     "static/media/project-15-icon.png": "/Portfolio/static/media/project-15-icon.8d75950b5dbf7f8dac99.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.b0c07c376f0b3751787e.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -22,12 +23,12 @@
     "static/media/project-2-icon.png": "/Portfolio/static/media/project-2-icon.e921e57b4bf4fdefda6b.png",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
-    "main.85c099c2.css.map": "/Portfolio/static/css/main.85c099c2.css.map",
-    "main.6380a604.js.map": "/Portfolio/static/js/main.6380a604.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.68a26d77.css.map": "/Portfolio/static/css/main.68a26d77.css.map",
+    "main.7e7656ac.js.map": "/Portfolio/static/js/main.7e7656ac.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c099c2.css",
-    "static/js/main.6380a604.js"
+    "static/css/main.68a26d77.css",
+    "static/js/main.7e7656ac.js"
   ]
 }
