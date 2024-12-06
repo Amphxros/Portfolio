@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.68a26d77.css",
-    "main.js": "/Portfolio/static/js/main.7e7656ac.js",
-    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "main.js": "/Portfolio/static/js/main.bb116d1f.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/project-3-icon.png": "/Portfolio/static/media/project-3-icon.3b81091221c8869cb934.png",
     "static/media/project-4-icon.png": "/Portfolio/static/media/project-4-icon.0c1c5c6d4ddfad697d3d.png",
     "static/media/about.png": "/Portfolio/static/media/about.35dcc2732fe37eff50e4.png",
@@ -10,8 +10,8 @@
     "static/media/project-17-icon.png": "/Portfolio/static/media/project-17-icon.7580bdd44093446ea077.png",
     "static/media/project-12-icon.png": "/Portfolio/static/media/project-12-icon.2d28a0b736fa4f6274c1.png",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.1c98e45f38b9ebe27927.png",
+    "static/media/CV-Amparo-Rubio.pdf": "/Portfolio/static/media/CV-Amparo-Rubio.ae508f85c5db5d22d164.pdf",
     "static/media/project-6-icon.png": "/Portfolio/static/media/project-6-icon.b2565292fcd3b241dcc0.png",
-    "static/media/CV-Amparo-Rubio.pdf": "/Portfolio/static/media/CV-Amparo-Rubio.e5250c697080fc5eb614.pdf",
     "static/media/Godot.png": "/Portfolio/static/media/Godot.e71420dd55a65646652e.png",
     "static/media/project-8-icon.png": "/Portfolio/static/media/project-8-icon.cf52f7ec9634f7006f13.png",
     "static/media/project-5-icon.png": "/Portfolio/static/media/project-5-icon.f15ddaaeb02efb6ff60a.png",
@@ -24,11 +24,11 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.68a26d77.css.map": "/Portfolio/static/css/main.68a26d77.css.map",
-    "main.7e7656ac.js.map": "/Portfolio/static/js/main.7e7656ac.js.map",
-    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
+    "main.bb116d1f.js.map": "/Portfolio/static/js/main.bb116d1f.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68a26d77.css",
-    "static/js/main.7e7656ac.js"
+    "static/js/main.bb116d1f.js"
   ]
 }
