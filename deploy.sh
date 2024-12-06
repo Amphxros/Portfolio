@@ -17,5 +17,5 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f https://github.com/amphxros/portfolio.git master:gh-pages
-pause 10000
+
 cd -
